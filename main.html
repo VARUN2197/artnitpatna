@@ -1,15 +1,25 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<h1 align="center"><img src="c.png"></h1>
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+<div id="container">
 
+<div id="top"><h1>ArtNitPatna</h1>
+
+<button  id="sign" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+</div>
+<h1 align="center"><img src="a.png"></h1>
+<div class="vertical-menu">
+  <a href="main.html">Home</a>
+  <a href="#">Account</a>
+  <a href="#">Submit</a>
+  <a href="#">About us</a>
+</div>
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
-  <form class="modal-content animate" method="POST" action="/action_page.php">
+  <form class="modal-content animate" action="/action_page.php">
     <div class="container">
      <label><b>Name</b></label>
       <input type="text" placeholder="Enter Name" name="email" required>  
@@ -30,7 +40,7 @@
     </div>
   </form>
 </div>
-
+</div>
 <script>
 // Get the modal
 var modal = document.getElementById('id01');
