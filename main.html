@@ -1,57 +1,43 @@
-﻿<!DOCTYPE html>
+<!Doctype Html>
 <html>
 <head>
-    <link rel="stylesheet" href="main.css">
-</head>
+     <link rel="stylesheet" href="main.css">
+</head> 
 <body>
-<div id="container">
-
-<div id="top"><h1>ArtNitPatna</h1>
-
-<button  id="sign" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
-</div>
-<h1 align="center"><img src="a.png"></h1>
-<div class="vertical-menu">
-  <a href="main.html">Home</a>
-  <a href="#">Account</a>
-  <a href="#">Submit</a>
-  <a href="#">About us</a>
-</div>
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
-  <form class="modal-content animate" action="/action_page.php">
-    <div class="container">
-     <label><b>Name</b></label>
-      <input type="text" placeholder="Enter Name" name="email" required>  
-      <label><b>Branch</b></label>
-      <input type="text" placeholder="Enter Branch" name="email" required>
-      <label><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-      <input type="checkbox" checked="checked"> Remember me
-      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Sign Up</button>
+      <div class="wrapper">
+         <div class="header">
+             <img src="brush.png">
+             <h3 class="title">Artnitpatna</h3>
+             <div class="tab">
+                  <a href="submit.html">Submit</a>
+                  <a href="#">About</a>
+                  <a href="main.html">Home</a>
+             </div>
+         </div>
+         <div class="box1">
+              <p><img src="space.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+              </p> 
+              <p><img src="abstract.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+              </p>   
+              <p><img src="dog.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+              </p>  
+         </div>
+         <div class="box2">
+              <p><img src="uncle.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+              </p> 
+              <p><img src="b.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+              </p> 
+              <p><img src="village.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+              </p> 
+         </div>
+         <div class="box3">
+              <p><img src="girl.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+              </p> 
+              <p><img src="poster.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+              </p> 
+              <p><img src="horse.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+              </p> 
+         </div>
       </div>
-    </div>
-  </form>
-</div>
-</div>
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-
 </body>
 </html>

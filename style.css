@@ -1,0 +1,37 @@
+body{
+   margin:0 auto;
+   background-image:url("a.jpg");
+   background_repeat:no-repeat;
+   background-size:100% 720px;
+}
+
+.container{
+ width:500px;
+ height:400px; 
+ text-align:center;
+ background-color:rgba(52,73,94,0.7);
+ margin:0 auto;
+ margin-top:150px;
+ border-radius: 4px;
+}
+
+#submit-button input[type="submit"]
+{
+    background-color:green;
+     color: #aaa;
+}
+.container img{
+   width: 120px;
+   height: 120px;
+   margin-top:-60px;
+   margin-bottom:30px;
+}
+
+input{
+  height: 45px;
+  width:300px;
+  font-size:18px;
+  margin_bottom:20px;
+  background-color: #fff;
+  padding-left:30px;
+}
